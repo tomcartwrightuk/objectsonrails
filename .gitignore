@@ -13,3 +13,23 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+.bundle
+db/*.sqlite3
+log/*
+tmp
+tmp/**/*
+.#*
+*~
++*.swp
++*.orig
+**/*.bak
+*.sw*
+**/*.sw*
+!*.swf
+*.vim
+*.sql
+**/*.orig
+.DS_Store
+.ruby-gemset
+.ruby-version
+config/database.yml
